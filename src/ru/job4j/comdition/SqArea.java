@@ -5,11 +5,11 @@ public class SqArea {
         return p / (2 * (k + 1));
     }
 
-    public static double length (double h, double k) {
+    public static double length(double h, double k) {
         return h * k;
     }
 
-    public static double square (double l, double h) {
+    public static double square(double l, double h) {
         return l * h;
     }
 

@@ -15,11 +15,5 @@ public class X2 {
         int rsl2 = X2.calc(0, 1, 1, 1);
         int rsl3 = X2.calc(1, 1, 0, 1);
         int rsl4 = X2.calc(1, 1, 1, 0);
-
-        System.out.println(rsl);
-        System.out.println(rsl1);
-        System.out.println(rsl2);
-        System.out.println(rsl3);
-        System.out.println(rsl4);
     }
 }

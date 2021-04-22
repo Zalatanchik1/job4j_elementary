@@ -10,7 +10,7 @@ public class X2Test {
     @Test
     public void whenA10B0C0X2Then40() {
         int expected = 40;
-        int rsl = X2.calc(10, 0, 0, 2);
+        int rsl = X2.calc(10, 1, 0, 2);
         Assert.assertEquals(expected, rsl);
     }
 

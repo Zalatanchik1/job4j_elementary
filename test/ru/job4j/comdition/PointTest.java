@@ -16,8 +16,8 @@ public class PointTest {
 
     @Test
     public void when00to20then4() {
-        double expected = 4.47;
-        double out = Point.distance(8, 7, 12, 9);
+        double expected = 11.18;
+        double out = Point.distance(1, 7, 12, 9);
         Assert.assertEquals(expected, out, 0.01);
     }
 

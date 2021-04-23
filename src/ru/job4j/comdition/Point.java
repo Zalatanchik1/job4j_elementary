@@ -6,7 +6,7 @@ public class Point {
     }
 
     public static void main(String[] args) {
-        short x1 = 1;
+        short x1 = 8;
         short x2 = 12;
         short y1 = 7;
         short y2 = 9;

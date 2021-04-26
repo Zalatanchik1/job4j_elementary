@@ -20,8 +20,8 @@ public class MaxTest {
     public void whenFirstMax() {
         int left = 3;
         int right = 4;
-        int result = Max.max(right, left);
-        int expected = 3;
+        int result = Max.max(left, right);
+        int expected = 4;
         Assert.assertEquals(result,expected);
     }
 

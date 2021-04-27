@@ -1,6 +1,4 @@
-package ru.job4j.comdition;
-
-import java.sql.SQLOutput;
+package ru.job4j.condition;
 
 public class DummyBot {
 

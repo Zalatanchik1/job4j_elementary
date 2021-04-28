@@ -16,7 +16,7 @@ public class TriangleTest {
     }
 
     @Test
-    public void whenExist1() {
+    public void whenNotExist() {
         double ab = 1.0;
         double ac = 1.0;
         double bc = 4.0;

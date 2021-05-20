@@ -14,6 +14,7 @@ public class CounterTest {
         int expected = 30;
         Assert.assertEquals(expected, result);
     }
+
     @Test
     public void whenSumEvenNumbersFromFourToFiftySixThenThirty() {
         int start = 4;

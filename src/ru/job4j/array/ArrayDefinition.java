@@ -11,7 +11,12 @@ public class ArrayDefinition {
         System.out.println("Размер массива равен: " + surnames.length);
         System.out.println("Размер массива равен: " + prices.length);
 
-        names[0] = "Alexander Suvorov";
+        String[] firstAndSecondName = {"Alexander Suvorov", "Derrick Rose","Valeryi Legasov", "Alexander Golubev" };
+        for (String name : firstAndSecondName) {
+            System.out.println(name);
+        }
+
+       /* names[0] = "Alexander Suvorov";
         names[1] = "Derrick Rose";
         names[2] = "Valeryi Legasov";
         names[3] = "Alexander Golubev";
@@ -20,5 +25,7 @@ public class ArrayDefinition {
         System.out.println(names[1]);
         System.out.println(names[2]);
         System.out.println(names[3]);
+
+        */
     }
 }

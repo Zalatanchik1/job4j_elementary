@@ -65,4 +65,16 @@ public class MatrixCheckTest {
         char[] expected = {'X', 'Y', 'Z'};
         Assert.assertArrayEquals(expected, result);
     }
+
+    @Test
+    public void whenNoHasMonoVertical() {
+        char[][] input = {
+                {' ', ' ', ' '},
+                {' ', ' ', ' '},
+                {' ', ' ', ' '},
+        };
+        int column = 1;
+        boolean result = MatrixCheck.monoVertical(input, column);
+        Assert.assertFalse(result);
+    }
 }

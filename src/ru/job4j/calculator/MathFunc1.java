@@ -19,4 +19,3 @@ public class MathFunc1 {
         System.out.println(result);
     }
 }
-// Задача: необходимо вызвать метод func1 с аргументом х = 100, а результат записать в переменную result.
